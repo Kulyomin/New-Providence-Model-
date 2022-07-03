@@ -4,7 +4,7 @@ $(document).ready(function(){
   window.addEventListener("scroll", checkScroll);
   document.addEventListener("DOMContentLoaded", checkScroll);
 
-  // Находим количество пролистанных пикселей
+  // Фиксация навбара при скролле
   function checkScroll() {
     let scrollPos = window.scrollY;
     if (scrollPos > 0) {
@@ -15,7 +15,7 @@ $(document).ready(function(){
     }
   }
   
-  // Переключать в блоке Плана //
+  // Переключатель в блоке Плана //
   $(".switch-btn").click(function(){
     $(".switch-btn").toggleClass("active");
     $(".individual").toggleClass('active');
