@@ -1,2 +1,2 @@
-# New-Providence-Model-
+# NewProvidence-Landing
 Макет сайта для различной тематики
